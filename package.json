@@ -1,0 +1,20 @@
+{
+  "name": "cli-rewire",
+  "version": "1.0.0",
+  "description": "Make a CLI by rewiring other CLIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jr-codes/cli-rewire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jr-codes/cli-rewire/issues"
+  },
+  "homepage": "https://github.com/jr-codes/cli-rewire#readme"
+}
