@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jr-codes/cli-rewire/issues"
   },
-  "homepage": "https://github.com/jr-codes/cli-rewire#readme"
+  "homepage": "https://github.com/jr-codes/cli-rewire#readme",
+  "devDependencies": {
+    "u-scripts": "^0.9.0"
+  }
 }
