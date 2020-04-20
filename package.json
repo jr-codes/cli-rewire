@@ -1,10 +1,10 @@
 {
   "name": "cli-rewire",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Make a CLI by rewiring other CLIs",
   "main": "index.js",
   "scripts": {
-    "test": "u test"
+    "test": "u test ci"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jr-codes/cli-rewire#readme",
   "devDependencies": {
+    "semantic-release": "^17.0.7",
     "u-scripts": "^0.9.0"
   },
   "dependencies": {

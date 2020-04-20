@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  test-node:
+    name: Test Node
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node_version: [10.x, 12.x, 13.x, 14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+      - run: node --version
+      - run: npm cit
+
+  test-os:
+    name: Test OS
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: node --version
+      - run: npm cit
