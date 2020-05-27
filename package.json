@@ -10,24 +10,33 @@
     "type": "git",
     "url": "git+https://github.com/jr-codes/cli-rewire.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "config",
+    "configuration",
+    "command",
+    "exec",
+    "bin",
+    "parse",
+    "args"
+  ],
+  "author": "JR Shampang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jr-codes/cli-rewire/issues"
   },
   "homepage": "https://github.com/jr-codes/cli-rewire#readme",
   "devDependencies": {
-    "semantic-release": "^17.0.7",
+    "semantic-release": "^17.0.8",
     "u-scripts": "^0.9.0"
   },
   "dependencies": {
     "chalk": "^4.0.0",
     "cosmiconfig": "^6.0.0",
     "debug": "^4.1.1",
-    "execa": "^4.0.0",
+    "execa": "^4.0.2",
     "yargs-parser": "^18.1.3",
-    "yargs-unparser": "^1.5.0"
+    "yargs-unparser": "^1.6.0"
   },
   "engines": {
     "node": ">=10.3.0"
