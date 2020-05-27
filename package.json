@@ -10,8 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/jr-codes/cli-rewire.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "config",
+    "configuration",
+    "command",
+    "exec",
+    "bin",
+    "parse",
+    "args"
+  ],
+  "author": "JR Shampang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jr-codes/cli-rewire/issues"
