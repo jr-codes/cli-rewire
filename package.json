@@ -31,7 +31,7 @@
     "u-scripts": "^0.9.1"
   },
   "dependencies": {
-    "chalk": "^4.0.0",
+    "chalk": "^4.1.0",
     "cosmiconfig": "^6.0.0",
     "debug": "^4.1.1",
     "execa": "^4.0.2",
