@@ -35,7 +35,7 @@
     "cosmiconfig": "^6.0.0",
     "debug": "^4.1.1",
     "execa": "^4.0.3",
-    "yargs-parser": "^19.0.4",
+    "yargs-parser": "^20.1.0",
     "yargs-unparser": "^1.6.0"
   },
   "engines": {
