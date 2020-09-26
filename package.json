@@ -4,7 +4,8 @@
   "description": "Make a CLI by rewiring other CLIs",
   "main": "index.js",
   "scripts": {
-    "test": "u test ci"
+    "test": "u test ci",
+    "test-local": "u test"
   },
   "repository": {
     "type": "git",
