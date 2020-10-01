@@ -2,15 +2,6 @@
   "name": "cli-rewire",
   "version": "0.0.0-development",
   "description": "Make a CLI by rewiring other CLIs",
-  "main": "index.js",
-  "scripts": {
-    "test": "u test ci",
-    "test-local": "u test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jr-codes/cli-rewire.git"
-  },
   "keywords": [
     "cli",
     "config",
@@ -21,15 +12,22 @@
     "parse",
     "args"
   ],
-  "author": "JR Shampang",
-  "license": "MIT",
+  "homepage": "https://github.com/jr-codes/cli-rewire#readme",
   "bugs": {
     "url": "https://github.com/jr-codes/cli-rewire/issues"
   },
-  "homepage": "https://github.com/jr-codes/cli-rewire#readme",
-  "devDependencies": {
-    "semantic-release": "^17.1.2",
-    "u-scripts": "^0.9.1"
+  "repository": "jr-codes/cli-rewire",
+  "license": "MIT",
+  "author": "JR Shampang",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "!*.test.js",
+    "!__tests__"
+  ],
+  "scripts": {
+    "test": "u test ci",
+    "test-local": "u test"
   },
   "dependencies": {
     "chalk": "^4.1.0",
@@ -38,6 +36,10 @@
     "execa": "^4.0.3",
     "yargs-parser": "^20.2.0",
     "yargs-unparser": "^1.6.3"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.1.2",
+    "u-scripts": "^0.9.2-alpha.3"
   },
   "engines": {
     "node": ">=10.3.0"
