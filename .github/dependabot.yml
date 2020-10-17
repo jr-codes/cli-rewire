@@ -9,3 +9,5 @@ updates:
     versioning-strategy: increase
     commit-message:
       prefix: fix
+    ignore:
+      - dependency-name: u-scripts
