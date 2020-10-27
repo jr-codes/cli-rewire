@@ -19,9 +19,8 @@
   "repository": "jr-codes/cli-rewire",
   "license": "MIT",
   "author": "JR Shampang",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "index.js",
     "lib",
     "!*.test.js",
     "!__tests__"

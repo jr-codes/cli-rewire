@@ -4,7 +4,6 @@
 [![npm](https://img.shields.io/npm/v/cli-rewire)](https://www.npmjs.com/package/cli-rewire)
 [![CI](https://github.com/jr-codes/cli-rewire/workflows/CI/badge.svg)](https://github.com/jr-codes/cli-rewire/actions)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jr-codes/cli-rewire/blob/master/LICENSE)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=jr-codes/cli-rewire)](https://dependabot.com)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jr-codes/cli-rewire.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jr-codes/cli-rewire/context:javascript)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jr-codes/cli-rewire.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jr-codes/cli-rewire/alerts/)
 
