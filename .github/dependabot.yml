@@ -3,11 +3,13 @@ updates:
   - package-ecosystem: npm
     directory: '/'
     schedule:
+      # Check for updates every weekday (Monday–Friday) @ 5am UTC.
       interval: daily
-      time: '11:00'
-    open-pull-requests-limit: 10
+    # Always increase version requirement to match the new version.
     versioning-strategy: increase
     commit-message:
+      # Use fix: to comply with conventional commits.
       prefix: fix
     ignore:
+      # Ignore u-script updates, since u-scripts and cli-rewire depend on each other.
       - dependency-name: u-scripts
