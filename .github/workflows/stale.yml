@@ -1,26 +1,26 @@
-name: Mark stale issues and pull requests
+name: Close stale issues
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # Run daily around midnight CST
+    - cron: '0 6 * * *'
 
 jobs:
   stale:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/stale@v1
+      - uses: actions/stale@v3
         with:
           days-before-stale: 60
           days-before-close: 15
-          exempt-issue-label: 'fresh'
-          exempt-pr-label: 'fresh'
+          exempt-issue-labels: 'fresh'
+          exempt-pr-labels: 'fresh,dependencies,security'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           stale-issue-label: 'stale'
           stale-issue-message: >
-            🤖 This issue has been automatically marked stale because it hasn't had
-            any recent activity. It'll be closed if no further activity occurs.
+            🤖 This issue is stale because it hasn't had any recent activity.
+            It'll be closed if no further activity occurs.
           stale-pr-label: 'stale'
           stale-pr-message: >
-            🤖 This pull request has been automatically marked stale because it hasn't had
-            any recent activity. It'll be closed if no further activity occurs.
+            🤖 This pull request is stale because it hasn't had any recent activity.
+            It'll be closed if no further activity occurs.
