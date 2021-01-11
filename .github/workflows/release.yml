@@ -5,16 +5,17 @@ on:
     branches: [master]
 
 jobs:
+  # Don't run if the last commit message has "[skip ci]"
   prepare:
     runs-on: ubuntu-latest
     if: "! contains(github.event.head_commit.message, '[skip ci]')"
     steps:
       - run: echo "${{ github.event.head_commit.message }}"
 
+  # Use semantic-release to publish canary releases of monorepo packages
   release:
     needs: prepare
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
