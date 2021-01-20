@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@jr.codes/u": "^0.10.0",
-    "semantic-release": "^17.3.3"
+    "semantic-release": "^17.3.4"
   },
   "engines": {
     "node": ">=10.3.0"
