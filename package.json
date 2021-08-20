@@ -42,6 +42,6 @@
     "semantic-release": "^17.4.5"
   },
   "engines": {
-    "node": ">=10.3.0"
+    "node": ">=12"
   }
 }
