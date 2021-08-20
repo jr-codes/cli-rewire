@@ -11,5 +11,5 @@ updates:
       # Use fix: to comply with conventional commits.
       prefix: fix
     ignore:
-      # Ignore u-script updates, since u-scripts and cli-rewire depend on each other.
-      - dependency-name: u-scripts
+      # Avoid circular dependency updates
+      - dependency-name: '@jr.codes/u'
