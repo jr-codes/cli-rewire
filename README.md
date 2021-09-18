@@ -21,7 +21,7 @@ npm install cli-rewire
 
 ## 📝 Usage
 
-First, install each CLI you want to rewire into you project.
+First, `npm install` each CLI you want to rewire into you project.
 
 Then, make a script file for each CLI. For example, if you wanted to rewire [Jest](https://github.com/facebook/jest) to use a custom config by default:
 
