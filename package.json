@@ -38,8 +38,8 @@
     "yargs-unparser": "^2.0.0"
   },
   "devDependencies": {
-    "@jr.codes/u": "^0.11.2",
-    "semantic-release": "^18.0.0"
+    "@jr.codes/u": "0.11.2",
+    "semantic-release": "18.0.0"
   },
   "engines": {
     "node": ">=12"
