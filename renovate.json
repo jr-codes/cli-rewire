@@ -1,3 +1,10 @@
 {
-  "extends": ["config:base"]
+  "extends": ["config:js-lib", ":automergeMinor"],
+  "packageRules": [
+    {
+      "enabled": "false",
+      "matchPackageNames": ["@jr.codes/u"],
+      "matchUpdateTypes": ["patch"]
+    }
+  ]
 }
